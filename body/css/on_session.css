@@ -1,0 +1,10 @@
+/*
+ the importation off all stylesheet file
+	
+*/
+@import url('on_session/main.css');
+@import url('on_session/home.css');
+@import url('on_session/profile.css');
+@import url('on_session/message.css');
+@import url('on_session/option.css');
+

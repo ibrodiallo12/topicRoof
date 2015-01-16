@@ -1,0 +1,254 @@
+/*---------------------STYLE FOR INDEX PAGE--------------*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: #f9faf7;
+}
+/* HEADER AND FORM LOG-IN */
+header
+{
+	border-bottom: 1px solid black;
+	height: 55px;
+	background: green;
+	box-shadow: 1px 1px 5px black;
+	margin-bottom: 100px;
+}
+header img, header h1
+{
+	display: inline-block;
+	color: white;
+	width: 160px;
+	height: 47px;
+}
+header div,header #form_log
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header div
+{
+	margin: 10px;
+}
+header #form_log
+{
+	height: 40px;
+	width: 700px;
+	margin-left: 320px;
+	margin-top: 25px;
+	background: white;
+	box-shadow: 1px 1px 8px black;
+	padding-top: 10px;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+header #form_log:hover
+{
+	box-shadow: 1px 1px 8px blue;
+}
+#form_log p
+{
+	width: 695px;
+	margin: auto;
+}
+#form_log label
+{
+	color: green;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+#form_log input
+{
+	width: 180px;
+	height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px;
+}
+#form_log input:focus
+{
+	box-shadow: 0px 0px 3px blue;
+}
+#form_log input[type="submit"]
+{
+	color: white;
+	width: 100px;
+	background: green;
+	height: 25px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px black;
+	margin-left: 5px;
+	border: 1px solid #bbb;
+	opacity: 0.9;
+}
+#form_log input[type="submit"]:focus
+{
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.8) inset;
+	opacity: 1;
+}
+
+/*	DESCRIPTION AND FORM SIGN-UP */
+#description , #form_sign
+{
+	display: inline-block;
+	vertical-align: top;
+	background: white;
+}
+#description
+{
+	position: relative;
+	width: 400px;
+	margin-left: 150px;
+	padding: 20px;
+	padding-right: 30px;
+	border-right: 3px solid green;
+	border-radius: 15px;
+	font-size: 25px;
+	font-family: Times New Roman;
+	box-shadow: 1px 1px 5px black;
+	background: #ececec;
+}
+#description .arrow
+{
+  position: absolute;
+  right: -46px;
+  top: 70px;
+  width: 0;
+  height: 0;
+  border-width: 20px;
+  border-color: transparent transparent transparent green;
+  border-style: solid;
+}
+#form_sign
+{
+	margin-left: 100px;
+	box-shadow: 1px 1px 8px black;
+	border-radius: 5px;
+}
+#form_sign:hover
+{
+	box-shadow: 1px 1px 8px blue;
+}
+#form_sign p
+{
+	position: relative;
+	width: 420px;
+	margin: 10px;
+}
+#form_sign span
+{
+	position: absolute;
+	top: 20px;
+	right: 2px;
+	display: block;
+	width: 140px;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: right;
+	color: white;
+	background: green;
+	font-family: Times New Roman;
+	box-shadow: 1px 1px 3px green;
+	border: 1px solid #bbb;
+	opacity: 0.9;
+}
+#form_sign .arrow
+{
+  position: absolute;
+  top: 15px;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-color: transparent green transparent transparent;
+  border-style: solid;
+}
+#form_sign label
+{
+	color: green;
+	margin: 5px;
+	font-weight: bold;
+}
+#form_sign input
+{
+	display: block;
+	width: 220px;
+	height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+}
+#form_sign input:focus
+{
+	box-shadow: 0px 0px 3px blue;
+}
+#form_sign input[type="submit"]
+{
+	color: white;
+	width: 100px;
+	background: green;
+	height: 35px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px black;
+	margin-left: 140px;
+	border: 1px solid #bbb;
+}
+#form_sign .terms
+{
+	display: block;
+	width: 200px;
+	margin: 5px;
+	padding: 5px;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+	border-radius: 5px;
+}
+#form_sign input[type="submit"]:focus
+{
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.8) inset;
+}
+/* FOOTER */
+#footer
+{
+	background: green;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.8) inset;
+}
+#footer ul
+{
+	width: 500px;
+	margin: auto;
+}
+#footer ul li
+{
+	position: relative;
+	display: inline-block;
+	color: white;
+	list-style-type: none;
+	font-size: 13px;
+	font-family: arial;
+	font-weight: bold;
+	margin-left: 30px;
+}
+#footer ul li a
+{
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+#footer ul li a:hover
+{
+	opacity: 1;
+}

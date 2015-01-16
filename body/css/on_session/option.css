@@ -1,0 +1,134 @@
+/*
+
+	STYLE FOR OPTIONS PAGE
+	
+*/
+#section_settings
+{
+	position: absolute;
+	top: 10px;
+	left: 70px;
+	background: #ececec;
+	width: 260px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	box-shadow: 1px 0px 5px black;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+#section_settings h4, .h4_changed
+{
+	background: white;
+	color: black;
+	text-align: center;
+	height: 15px;
+	box-shadow: 1px 0px 5px black;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+#section_settings ul a
+{
+	text-decoration: none;
+	color: black;
+}
+#section_settings ul li
+{
+	border: 1px solid green;
+	height: 40px;
+	list-style-type: none;
+	display: block;
+	margin-bottom: 2px;
+}
+#section_settings ul li:hover
+{
+	border: 1px solid blue;
+	color: green;
+	background: white;
+}
+.presentation_option .separate_list_topics
+{
+	margin-bottom: 30px;
+}
+#section_settings img, h3
+{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 2px;
+}
+#section_settings li img
+{
+	margin-right: 5px;
+	margin-left: 5px;	
+	margin-top: 4px;
+	width: 30px;
+	height: 30px;
+	box-shadow: 1px 0px 5px black;
+	border-radius: 5px;
+}
+#form_settings
+{
+	position: relative;
+}
+#form_settings label, input
+{
+	display: block;
+}
+#form_settings label
+{
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+#form_settings input
+{
+	font-size: 15px;
+	padding: 5px;
+	background: #ececec;
+	border: 1px solid green;
+	border-radius: 3px;
+}
+#form_settings input[type="submit"]
+{
+	position: absolute;
+	right: -10px;
+	bottom: -45px;
+	color: white;
+	width: 120px;
+	background: green;
+	height: 30px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px black;
+	border: 1px solid #bbb;
+	margin-bottom: 20px;
+}
+#form_settings input[type="submit"]:focus
+{
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.8) inset;
+}
+/* for avatar in option page */
+#div_avatar
+{
+	background: ;
+	padding: 5px;
+	border: 4px dashed #bbb;
+}
+#div_avatar img, #div_avatar p
+{
+	display: inline-block;
+	vertical-align: bottom;
+}
+#div_avatar img
+{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 15px;
+	border: 1px solid #ececec;
+	margin-top: -30px;
+}

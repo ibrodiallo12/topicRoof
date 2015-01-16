@@ -1,0 +1,497 @@
+
+#left, #right
+{
+	display: inline-block;
+	width: 495px;
+	vertical-align: top;
+	min-height: 500px;
+}
+#left
+{
+	border-right: 1px solid green;
+}
+/*COLUMN LEFT*/
+
+.statistic_topic
+{
+	color: green;
+	width: 470px;
+	background: #ececec;
+	height: 35px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	opacity: 0.9;
+}
+.separate
+{
+	position: relative;
+	display: block;
+	height: 1px;
+	width: 200px;
+	background: green;
+	color: chocolate;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	margin-top: 10px;
+	text-align: center;
+}
+.separate .arrow_2
+{
+  position: absolute;
+  top: 0px;
+  left: 95px;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-color: green transparent transparent transparent;
+  border-style: solid;
+}
+#form_topic
+{
+	width: 450px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	box-shadow: 1px 1px 5px green;
+	border: 3px dashed #ececec;
+	border-radius: 5px;
+}
+#form_topic:hover
+{
+	box-shadow: 1px 1px 5px blue;
+}
+#form_topic teateara, #form_topic input
+{
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+#form_topic textarea
+{
+	width: 350px;
+	height: 35px;
+	padding: 5px;
+	border-radius: 5px;
+	background: #ececec;
+	font-size: 14px;
+	font-style: arial;
+}
+#form_topic input[type="submit"]
+{
+	color: white;
+	width: 80px;
+	background: green;
+	height: 30px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px black;
+	border: 1px solid #bbb;
+	margin-bottom: 20px;
+}
+#form_topic input[type="submit"]:focus
+{
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.8) inset;
+}
+.presentation
+{
+	width: 400px;
+	margin: auto;
+}
+.presentation img, .presentation .name, .presentation .line
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.presentation .line
+{
+	position: relative;
+	top: 35px;
+}
+.presentation div
+{
+	border-bottom: 2px solid #ececec;
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+.presentation .div_Topic
+{
+	margin-top: -20px;
+}
+.presentation div:hover
+{
+	cursor: pointer;
+}
+.presentation img
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	position: relative;
+	top: 35px;
+}
+.presentation .name
+{
+	margin-left: -6px;
+	margin-top: -28px;
+	background: white;
+	width: 308px;
+	height: 20px;
+	padding: 5px;
+	padding-left: 20px;
+	border-radius: 4px;
+	color: black;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	position: relative;
+	opacity: 0.9;
+	font-weight: bold;
+}
+.presentation .name:hover
+{
+	opacity: 1;
+	color: green;
+}
+.presentation .name .date
+{
+	position: absolute;
+	left: 255px;
+	top: 0px;
+	font-size: 11px;
+}
+.presentation p
+{
+	min-width: 200px;
+	min-height: 20px;
+	max-width: 350px;
+	margin-left: 65px;
+	margin-top: -15px;
+	padding: 5px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	word-wrap: break-word;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.presentation a
+{
+	text-decoration: none;
+}
+.a_view_comment
+{
+	text-decoration: none;
+	color: black;
+	opacity: 0.8;
+}
+.a_view_comment:hover
+{
+	opacity: 1;
+	color: green;
+}
+.presentation ul
+{
+	background: white;
+	min-width: 200px;
+	max-width: 350px;
+	margin-left: 65px;
+	text-align: center;
+}
+.presentation li
+{
+	display: inline-block;
+	list-style-type: none;
+	padding: 2px;
+	font-size: 13px;
+}
+.presentation .shareComment
+{
+	background: #ececec;
+	width: 330px;
+	margin-left: 65px;
+	height: 35px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.presentation .shareComment:hover
+{
+	box-shadow: 1px 1px 3px blue;
+}
+.presentation .share, .presentation .form_comment
+{
+	display: inline-block;
+}
+.presentation .share
+{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: -35px;
+}
+.presentation .form_comment
+{
+	margin-left: 10px;
+}
+.presentation .form_comment input
+{
+	width: 260px;
+	padding: 3px;
+	height: 20px;
+}
+.line
+{
+	position: absolute;
+	min-height: 50px;
+	width: 1px;
+	background: green;
+	margin-left: 2px;
+	border-radius: 5px;
+	box-shadow: 1px 0px 1px black;
+	border: 1px solid #bbb;
+}
+.line .arrow_3
+{
+  position: absolute;
+  top: 15px;
+  left: -10px;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-color: transparent black transparent transparent;
+  border-style: solid;
+}
+/* COLUMN RIGHT*/
+.statistic_top
+{
+	color: green;
+	width: 470px;
+	background: #ececec;
+	height: 35px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	opacity: 0.9;
+}
+
+
+/*-------------------------------
+	modal window 
+-------------------------------*/
+
+/*STYLE FOR VIEW COMMENT*/
+
+.section_view_comment
+{
+	position: relative;
+	width: 635px;
+	height: 500px;
+	background: #ececec;
+	box-shadow: 1px 1px 8px black;
+	border-radius: 5px;
+	overflow: scroll;
+}
+.section_view_comment:hover
+{
+	box-shadow: 1px 1px 8px blue;
+}
+.section_view_comment .close
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 25px;
+	height: 25px;
+	padding-left: 15px;
+	padding-top: 8px;
+	opacity: 0.7;
+	background: green;
+	color: white;
+	box-shadow: 1px 1px 8px black;
+	cursor: pointer;
+}
+.section_view_comment .close:hover
+{
+	opacity: 1;
+}
+#div_comment
+{
+	position: relative;
+	width: 425px;
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+	height: 50px;
+	box-shadow: 1px 1px 5px blue;
+	border-radius: 10px;
+}
+#div_comment #form_messsage
+{
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px blue;
+}
+#div_comment #form_message teateara, #div_comment #form_message input
+{
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+#div_comment #form_message textarea
+{
+	width: 320px;
+	height: 35px;
+	padding: 5px;
+	border-radius: 5px;
+}
+#div_comment #form_message input[type="submit"]
+{
+	color: white;
+	width: 80px;
+	background: green;
+	height: 30px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px black;
+	border: 1px solid #bbb;
+	margin-bottom: 20px;
+}
+#div_comment #form_message input[type="submit"]:focus
+{
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.8) inset;
+}
+.section_view_comment article
+{
+	width: 600px;
+	height: 65px;
+	padding: 10px;
+	background: green;
+	color: white;
+	box-shadow: 1px 1px 3px black;
+	margin-bottom: 70px;
+}
+.section_view_comment article img, .section_view_comment article div
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.section_view_comment article img
+{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid green;
+	box-shadow: 1px 1px 3px black;
+}
+.section_view_comment article div
+{
+	margin-left: 10px;
+}
+.section_view_comment article div em
+{
+	font-size: 12px;
+	position: relative;
+	right: -290px;
+	top: 45px;
+}
+.section_view_comment article div span
+{
+	display: block;	
+	margin-top: 10px;	
+	margin-bottom: 5px;
+	font-size: 25px;
+	text-shadow: 2px 1px 5px black;
+}
+.section_view_comment article div p
+{
+	position: relative;
+	width: 400px;
+	min-height: 30px;
+	background: #ececec;
+	color: black;	
+	padding: 15px;
+	box-shadow: 1px 1px 2px black;
+	font-weight: bold;
+	border-radius: 5px;
+	word-wrap: break-word;
+}
+.section_view_comment article div p .arrow
+{
+  position: absolute;
+  right: 10px;
+  bottom: -25px;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-color: green transparent transparent transparent ;
+  border-style: solid;
+}
+.section_view_comment .commentDescription
+{
+	width: 415px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+	background: white;
+	color: black;	
+	padding: 5px;
+	box-shadow: 1px 1px 2px black;
+	border-radius: 5px;
+}
+.section_view_comment .commentDescription img, .section_view_comment .commentDescription div
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.section_view_comment .commentDescription img
+{
+	width: 60px;
+	height: 60px;
+	box-shadow: 1px 1px 2px black;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.section_view_comment .commentDescription a
+{
+	text-decoration: none;
+	opacity: 0.8	;
+}
+.section_view_comment .commentDescription a:hover
+{
+	opacity: 1;
+}
+.section_view_comment .commentDescription span
+{
+	font-weight: bold;
+	color: green;
+}
+.section_view_comment .commentDescription em
+{
+	font-size: 12px;
+	position: relative;
+	top: -20px;
+	left: 100px;
+}
+.section_view_comment .commentDescription div p
+{
+	width: 320px;
+	margin-left: 75px;
+	margin-top: -20px;
+	background: #ececec;
+	padding: 2px;
+	border-radius: 5px;
+	word-wrap: break-word;
+}
+

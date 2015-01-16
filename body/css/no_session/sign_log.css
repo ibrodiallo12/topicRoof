@@ -1,0 +1,81 @@
+/*------------------------------STYLE FOR CHECK PAGES-------------------*/
+/* STYLE PAGE logIn signUp and active */
+.section_check
+{
+	width: 700px;
+	margin: auto;
+	padding: 10px;
+}
+header #div_check
+{
+	height: auto;
+	width: 500px;
+	margin-left: 320px;
+	margin-top: 25px;
+	background: white;
+	box-shadow: 1px 1px 8px black;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+header #div_check:hover
+{
+	box-shadow: 1px 1px 8px blue;
+}
+#div_check p
+{
+	position: relative;
+	width: 550px;
+	margin: auto;
+	padding: 2px;
+	color: green;
+	font-size: 20px;
+	font-family: Times New Roman;
+	font-style: italic;
+	opacity: 0.9;
+}
+#div_check img
+{
+	position: absolute;
+	left: -40px;
+	top: -3px;
+	width: 20px;
+	height: 20px;
+	box-shadow: 1px 1px 5px blue;
+	border-radius: 20px;
+	padding: 5px;
+	background: white;
+	opacity: 1;
+}
+.div_send
+{
+	position: relative;
+	margin-left: 100px;
+	width: 500px;
+	height: 100px;
+	box-shadow: 1px 1px 8px black;
+	border-radius: 5px;
+	padding: 20px;
+}
+.div_send:hover
+{
+	box-shadow: 1px 1px 8px blue;
+}
+.div_send img
+{
+	position: absolute;
+	left: -35px;
+	top: 25px;
+	width: 60px;
+	height: 60px;
+	box-shadow: 1px 1px 5px blue;
+	border-radius: 10px;
+}
+.div_send h2, .div_send h4
+{
+	width: 350px;
+	margin: auto;
+	padding: 5px;
+	color: green;
+}

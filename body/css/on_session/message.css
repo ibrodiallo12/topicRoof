@@ -1,0 +1,167 @@
+/*
+
+	STYLE FOR MESSAGE PAGE
+
+*/
+.message
+{
+	height: 600px;
+	overflow: auto;
+}
+#section_message
+{
+	position: absolute;
+	top: 10px;
+	left: 70px;
+	background: #ececec;
+	width: 260px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	box-shadow: 1px 0px 5px black;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+#section_message h4
+{
+	background: green;
+	color: white;
+	text-align: center;
+	height: 15px;
+	box-shadow: 1px 0px 5px black;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+#section_message ul li
+{
+	border: 1px solid green;
+	height: 40px;
+	list-style-type: none;
+	display: block;
+	margin-bottom: 2px;
+}
+#section_message ul li:hover
+{
+	border: 1px solid blue;
+	color: green;
+	background: white;
+}
+#section_message img, #section_message span
+{
+	display: inline-block;
+	vertical-align: middle;	
+	padding: 5px;
+}
+#section_message li img
+{
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+	box-shadow: 1px 0px 5px black;
+	border-radius: 5px;
+}
+.user_message
+{
+	box-shadow: 1px 0px 2px black;
+	border-radius: 5px;
+	position: relative;
+}
+.user_message img
+{
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	top: -10px;
+}
+.user_message p
+{
+	margin-top: 25px;
+	min-height: 20px;
+	padding-top: -30px;
+	border: none;
+}
+#section_list_message
+{
+	height: 500px;
+	overflow: auto;
+}
+#section_list_message .separate_list_topics
+{
+	margin-bottom: 30px;
+}
+#section_list_message #div_Send_To
+{
+	border-bottom: 1px solid green;
+	height: 70px;
+}
+#section_list_message #div_Send_To img
+{
+	display: inline-block;
+	margin-top: -40px;
+}
+#section_list_message #div_Send_To em
+{
+	display: block;
+	border-bottom: 1px solid green;
+	background:  #ececec;
+	padding: 2px;
+}
+#section_list_message #div_Send_To span
+{
+	display: inline-block;
+	padding-top: 15px;
+	margin-left: 15px;
+	color: green;
+	font-size: 18px;
+}
+#div_message
+{
+	width: 400px;
+	box-shadow: 1px 1px 5px blue;
+	border-radius: 10px;
+}
+#div_message form
+{
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px blue;
+}
+#div_message form:hover
+{
+	box-shadow: 1px 1px 5px blue;
+}
+#div_message form teateara, #div_message form input
+{
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+#div_message form textarea
+{
+	width: 300px;
+	height: 35px;
+	padding: 5px;
+	border-radius: 5px;
+}
+#div_message form input[type="submit"]
+{
+	color: white;
+	width: 80px;
+	background: green;
+	height: 30px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px black;
+	border: 1px solid #bbb;
+	margin-bottom: 20px;
+}
+#div_message form input[type="submit"]:focus
+{
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.8) inset;
+}
