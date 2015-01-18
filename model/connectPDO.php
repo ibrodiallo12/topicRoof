@@ -1,5 +1,6 @@
 <?php
-
+	require("../../connectPDO.php");
+/*
 	define('DB_HOST','localhost');
 	define('DB_NAME','test');
 	define('DB_USERNAME','root');
@@ -14,4 +15,5 @@
 		{
 				die('PDO::Error: ' . $e->getMessage());
 		}
+*/
 ?>
