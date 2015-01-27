@@ -1,0 +1,67 @@
+INDEX PAGE
+
+body {
+  padding-top: 10px;
+}
+[class*="col-"], footer {
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+#form_logIn
+{
+	box-shadow: 1px 1px 3px black;
+	padding: 5px;
+	border-radius: 3px;
+}
+#top_Carousel
+{
+	margin-top: 100px;
+}
+.form_signUp_index
+{
+	position: absolute;
+	top: 100px;
+	right: 120px;
+}
+#form_signUp
+{
+	width: 300px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+}
+#form_signUp div
+{
+	margin-bottom: 18px;
+}
+footer
+{
+	margin-top: 100px;
+}
+
+#alert_Error
+{
+	margin-top: 0px;
+	height: 40px;
+	padding: 0px;
+}
+.form_signUp, .form_logIn
+{
+	position: relative;
+	left: 35%;
+}
+.description_logIn, .description_signUp
+{
+	margin-left: 250px;
+}
